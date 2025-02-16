@@ -1,6 +1,6 @@
 package conta.model;
 
-public class Conta {
+public abstract class Conta {
 
 	private int numero;
 	private int agencia;
@@ -17,7 +17,7 @@ public class Conta {
 	}
 
 	public int getNumero() {
-		return numero;
+	return numero; 
 	}
 
 	public void setNumero(int numero) {
