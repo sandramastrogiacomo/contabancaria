@@ -3,9 +3,9 @@ package conta.model;
 public class ContaPoupanca extends Conta {
 	private int aniversario;
 
-	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo, int aniversario) {
+	public ContaPoupanca(int numero, int agencia, int tipo, String titular, float saldo, float limite) {
 		super(numero, agencia, tipo, titular, saldo);
-		this.aniversario = aniversario;
+		this.aniversario = (int) limite;
 	}
 
 	public int getAniversario() {
